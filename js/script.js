@@ -97,7 +97,7 @@ const homePage = document.querySelector(".home-page");
 const appPage = document.querySelector(".app-page");
 const weatherButton = document.querySelector(".weather-button");
 const mainApps = document.querySelector(".app-main");
-let backbutton = document.querySelector(".back-button");
+
 
 onButton.addEventListener('click', function() {
 
@@ -118,16 +118,20 @@ homeButton.addEventListener("click", function() {
 
 weatherButton.addEventListener('click', function() {
   let weatherApp = document.querySelector(".weather-app");
+  let backbutton = document.querySelector(".back-button");
+
   setTimeout(function() {
     weatherApp.classList.remove("displayNone");
     mainApps.classList.toggle("displayNone");
   }, 500);
+  
+  backbutton.addEventListener("click", function() {
+    weatherApp.classList.add("displayNone");
+    mainApps.classList.remove("displayNone");
+  })
 })
 
-backbutton.addEventListener("click", function() {
-  weatherApp.classList.add("displayNone");
-  mainApps.classList.remove("displayNone");
-})
+
 
 /*************
   Weather APP
