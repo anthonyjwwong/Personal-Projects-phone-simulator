@@ -1,0 +1,273 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.displayNone {
+  display: none;
+}
+
+/*****************
+    Design
+******************/
+.phone {
+  height: 640px;
+  width: 350px;
+  border: 3px solid silver;
+  margin: 10vh auto 10px;
+  border-radius: 25px;
+  background: #262626;
+  box-shadow: 7px 5px 5px #262626;
+}
+
+.phone-top {
+  height:30px;
+  background: #262626;
+  margin-top: 20px;
+}
+
+.speaker {
+  height: 7px;
+  width: 70px;
+  background: #3a3a3a;
+  margin: 30px auto 0px;
+  border-radius: 25px;
+}
+
+.screen-display {
+  height: 510px;
+  width: inherit;
+  background: black;
+  margin: 0 auto;
+  width: 330px;
+}
+
+.phone-bottom {
+  width: 270px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.phone-bottom button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  outline: none;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: #3a3a3a;
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+}
+
+/******************
+  Screen Displays
+*****************/
+.home-page {
+  padding: 0;
+  margin: 0;
+}
+
+/****************
+HomePage/Top row
+*******************/
+.top-row {
+  padding-top: 4px;
+  display: flex;
+  width:320px;
+  justify-content: space-between;
+}
+
+.carrier i {
+  padding-left: 4px;
+  color: white;
+  font-size: 12px;
+}
+
+.carrier {
+  display: flex;
+  width: 50px;
+}
+
+.carrier p {
+  font-size: 12px;
+  color: white;
+  margin-top: 0;
+  margin-left: 3px;
+  font-weight: bold;
+}
+
+.battery {
+  display: flex;
+}
+
+.battery p {
+  color: white;
+  font-size: 12px;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.battery i {
+  color: white;
+  padding-left: 4px;
+}
+
+/*****************
+    Home page/Time
+*****************/
+.date-time {
+  text-align: center;
+  padding-top: -10px;
+}
+
+.date-time h1 {
+  margin-bottom: 0;
+  font-size: 65px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.date-time h2 {
+  margin-top:0;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/**************
+  HomePage/bottom
+**************/
+.bottom-row{
+  text-align: center;
+}
+
+.bottom-row p {
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 315px;
+}
+
+/****************
+  App/page
+**************/
+.app-page h1 {
+  margin-top: 0;
+}
+
+.app-page p {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.app-main i {
+ font-size: 15px;
+ color: #aec6cf;
+
+}
+.row1 {
+
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+  margin: 30px auto 0;
+
+}
+
+.row1 button{
+  width: 45px;
+  height: 45px;
+  border-radius: 7px;
+  outline: none;
+}
+
+.weather-button {
+  background: inherit;
+  border: 3px solid #0ab;
+}
+
+.indiv-app p {
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: 3px;
+}
+
+/***********
+  weatherApp
+*************/
+.weather-app {
+  text-align: center;
+
+  color: #0ab;
+}
+
+.weather-app h1 {
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+.weather h1 {
+  text-align: center;
+  font-weight: 300;
+}
+
+.weather-app i {
+  font-size: 20px;
+}
+
+.farenheit {
+
+  background: inherit;
+  color: #5b8899;
+  border: 1px solid #5b8899;
+  padding: 5px 10px 5px;
+  width: 30px;
+  text-align: center;
+}
+
+.celsius {
+    background: inherit;
+  color: #5b8899;
+  border: 1px solid #5b8899;
+  padding: 5px 10px 5px;
+  width: 30px;
+  text-align: center;
+}
+
+.weather h2 {
+  text-align: center;
+  font-weight: 300;
+}
+
+.temp {
+  color: white;
+}
+
+.currentWeather {
+  color: white;
+}
+
+.weather {
+  text-align: center;
+  border-radius: 20px;
+  border: 3px solid #5b8899;
+  width: 250px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+
+}
+
+.back-button {
+  cursor: pointer;
+  margin: 10px auto 0;
+  border: 2px solid #0ab;
+  width: 20%;
+}
+
+.weatherIcon {
+  text-align: center;
+
+}

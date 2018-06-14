@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phone Simulator</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+</head>
+<body>
+  <div class="phone">
+
+    <div class="phone-top">
+      <div class="speaker"></div>
+    </div>
+
+    <div class="screen-display">
+      <!--HOME PAGE-->
+      <div class="home-page displayNone">
+
+        <div class="top-row">
+          <div class="carrier">
+            <i class="fas fa-signal"></i>
+            <p>Ipsum</p>
+          </div>
+          <div class="battery">
+            <p>100%</p>
+            <i class="fas fa-battery-full"></i>
+          </div>
+        </div>
+
+
+        <div class="date-time">
+          <h1 class="time">
+            <span class="hours">00</span>:<span class="minutes">00</span>
+          </h1>
+          <div class="date">
+            <h2 class="day"></h2>
+          </div>
+        </div>
+
+
+        <div class="bottom-row">
+          <p>Press home to unlock</p>
+        </div>
+      </div>
+
+      <!--APP PAGE-->
+      <div class="app-page displayNone">
+
+        <div class="top-row">
+
+          <div class="carrier">
+            <i class="fas fa-signal"></i>
+            <p>Ipsum</p>
+          </div>
+
+          <div class="date-time">
+            <p class="time">
+              <span class="hours">00</span>:<span class="minutes">00</span>
+            </p>
+          </div>
+
+          <div class="battery">
+            <p>100%</p>
+            <i class="fas fa-battery-full"></i>
+          </div>
+
+        </div>
+
+        <div class="app-main">
+          <div class="row1">
+            <div class="indiv-app">
+
+            <button class="weather-button"><i class="fa fa-thermometer-full" aria-hidden="true"></i></button>
+            <p>Weather</p>
+            </div>
+            <button><i class="fa fa-thermometer-full" aria-hidden="true"></i></button>
+            <button><i class="fa fa-thermometer-full" aria-hidden="true"></i></button>
+            <button><i class="fa fa-thermometer-full" aria-hidden="true"></i></button>
+          </div>
+
+        </div>
+        </div>
+
+      <div class="weather-app displayNone">
+
+        <h1>Weather App</h1>
+
+
+        <div class="weather">
+
+          <h2 class="city"></h2>
+          <button class="farenheit">F</button>
+          <button class="celsius">C</button>
+          <h2 class='temp'></h2>
+          <h2 class="currentWeather"></h2>
+          <div class="weatherIcon"></div>
+
+        </div>
+        <p class="back-button"><- Back</p>
+      </div>
+
+    </div>
+
+    <div class="phone-bottom">
+      <button class="on-button"></button>
+      <button class="home-button displayNone"></button>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
